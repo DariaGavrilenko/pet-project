@@ -1,0 +1,103 @@
+.headerContainer {
+    border-bottom: 1px solid #E6E8EC;
+    height: 80px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.headerContentContainer{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logoName {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #23262F;
+    height: 40px;
+    margin-left: -65px;
+    padding-right: 32px;
+    padding-top: 10px;
+    border-right: 2px solid #E6E8EC;
+    border-radius: 2px;
+}
+
+.headerLink {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #23262F;
+    margin-left: 32px;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: end;
+   
+}
+
+.headerInput {
+    width: 256px;
+    height: 40px;
+    border: 2px solid #E6E8EC;
+    border-radius: 8px;
+    color: #777E91;
+    padding: 10px 35px 10px 16px;
+    box-sizing: border-box;
+}
+.inputContainer{
+    position: relative;
+}
+
+.inputGlass{
+    position: absolute;
+    top:10px;
+    right: 10px;
+}   
+
+.headerButtonBell {
+    border: none;
+    background: none;
+    width: 70px;
+}
+
+
+
+@media screen and (max-width: 1124px) {
+    .headerLink{
+        display: none;
+    }
+    .logoName{
+        border: none;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .headerLink,
+    .headerButton,
+    .headerButtonBlue,
+    .headerButtonBell,
+    .searchContainer
+    {
+        display: none;
+    }
+    .logoName{
+        border: none;
+    }
+
+}
