@@ -2,7 +2,7 @@ import s from './Header.module.css';
 import Vector from '../../assets/img/Vector.png';
 import logo from '../../assets/img/logo.png';
 import search from '../../assets/img/Shape.png';
-import { Button } from 'Components/shared/Button';
+import { Button } from 'components/shared/Button';
 
 const Header = () => {
   return (
