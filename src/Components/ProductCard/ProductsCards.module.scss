@@ -1,0 +1,27 @@
+.cardsContainer{
+    width: 85%;
+    min-width: 320px;
+    margin: 50px auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    overflow:scroll;
+    position: relative;
+}
+
+.nameOfCategory{
+    position:absolute;
+    top:10px;
+    left:25px;
+    &::after{
+        content: '';
+         position: absolute;
+         background-image: url('../../assets/img/down-arrow.png');
+         background-size: cover;
+         width: 15px;
+         height: 15px;
+         top:-2px;
+         right: -30px;
+    }
+
+}
