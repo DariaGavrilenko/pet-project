@@ -1,0 +1,51 @@
+.cardContainer{
+    width: 256px;
+    min-width: 256px;
+    height: 460px;
+    border: 2px solid #eaeaec;;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.productImg{
+    width: 250px;
+    height: 303px;
+    border-radius: 15px;
+}
+
+.priceAndRatingContainer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px ;
+padding: 0 15px;
+}
+
+.priceContainer{
+    width: 68px;
+    height: 26px;
+    border: 2px solid #45B36B;
+    border-radius: 4px;  
+    text-align: center;  
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.ratingContainer{
+    display: flex;
+    align-items: center;
+    img{
+        width: 15px;
+        height: 15px;
+        margin-right: 4px;
+        padding-bottom: 4px;
+    }
+}
+
+.cardTitle{
+    padding: 10px;
+}

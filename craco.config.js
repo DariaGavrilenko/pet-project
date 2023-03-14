@@ -24,9 +24,13 @@ module.exports = {
   // ...
   webpack: {
     alias: {
-      '@components': resolvePath('./src/Components'),
+      '@components': resolvePath('./src/components'),
       '@assets': resolvePath('./src/assets'),
-      '@services': resolvePath('./src/services')
+      '@constants': resolvePath('./src/constants'),
+      '@helpers': resolvePath('./src/helpers'),
+      '@pages': resolvePath('./src/pages'),
+      '@api': resolvePath('./src/api'),
+      '@hooks': resolvePath('./src/hooks')
     }
   }
   // ...
